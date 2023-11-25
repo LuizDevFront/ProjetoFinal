@@ -1,0 +1,51 @@
+package voluntaryou;
+public class Vag { private String vaga;
+private String descricao; private String requisitos; private String atribuicoes;
+
+private String tipo; private int escala;
+private String experiencia; private String cursos; private String diferencial; private String salario;
+// Construtor public Vag() {
+// Construtor padrão }
+// Métodos getters e setters public String getVaga() {
+return vaga; }
+public void setVaga(String vaga) { this.vaga = vaga;
+}
+public String getDescricao() { return descricao;
+}
+
+public void setDescricao(String descricao) { this.descricao = descricao;
+}
+public String getRequisitos() { return requisitos;
+}
+public void setRequisitos(String requisitos) { this.requisitos = requisitos;
+}
+public String getAtribuicoes() { return atribuicoes;
+}
+public void setAtribuicoes(String atribuicoes) { this.atribuicoes = atribuicoes;
+}
+public String getTipo() { return tipo;
+}
+public void setTipo(String tipo) {
+
+this.tipo = tipo; }
+public int getEscala() { return escala;
+}
+public void setEscala(int escala) { this.escala = escala;
+}
+public String getExperiencia() { return experiencia;
+}
+public void setExperiencia(String experiencia) { this.experiencia = experiencia;
+}
+public String getCursos() { return cursos;
+}
+public void setCursos(String cursos) { this.cursos = cursos;
+
+}
+public String getDiferencial() { return diferencial;
+}
+public void setDiferencial(String diferencial) { this.diferencial = diferencial;
+}
+public String getSalario() { return salario;
+}
+public void setSalario(String salario) { this.salario = salario;
+} }
